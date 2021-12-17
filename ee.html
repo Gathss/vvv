@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    推送Git
+    <!-- 
+        第一次推送Git
+    报错 fatal: unable to access 'https://github.com/Gathss/vvv.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+    产生原因：一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错
+    参考网上解决办法：解除ssl验证后，再次git即可
+    提交命令git config --global http.sslVerify "false"
+    提交成功 
+    -->
+
+    进行第二次提交
 </body>
 </html>
